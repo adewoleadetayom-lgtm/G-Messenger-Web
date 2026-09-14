@@ -23,7 +23,14 @@ button,input,textarea{font:inherit}button{border:0;cursor:pointer}.app{max-width
 .logo{width:74px;height:74px;border-radius:25px;background:var(--blue);color:white;display:grid;place-items:center;font-size:40px;font-weight:800;margin:20px auto 12px}.center{text-align:center}.muted{color:var(--muted)}.empty{text-align:center;padding:55px 20px;color:var(--muted)}
 </style>
 </head>
-<body><main class="app" id="app"></main>
+<body><main class="app" id="app">
+<section class="content center">
+<div class="logo">G</div>
+<h1>G Messenger</h1>
+<p class="muted">Loading G Messenger...</p>
+<button class="btn" onclick="location.reload()">Open G Messenger</button>
+</section>
+</main>
 <script>
 const KEY="gm_web_state_v1";
 let state;
